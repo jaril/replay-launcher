@@ -1,0 +1,36 @@
+button {
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.container *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.replay-logo {
+  width: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form *:not(:first-child) {
+  margin-top: 0.5rem;
+}
+
+.url-input {
+  padding: 0.25rem 0.5rem;
+}
